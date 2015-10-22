@@ -34,7 +34,11 @@ var options = {
       // compiled css file from sass compilation
       css: './public/style.css'
     }
-  }
+  },
+  // APIs to proxy to minted.local.
+  // 'gulp develop' will reroute the following requests to
+  // minted.local/<request_path>
+  apis: ['<array of strings of path prefixes to proxy>'],
 };
 
 var tasks = require('frontend-build-system')(options);

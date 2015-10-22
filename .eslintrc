@@ -1,0 +1,7 @@
+{
+    "extends": "./node_modules/eslint-config-minted/.eslintrc-es6-and-jsx",
+    // add your custom ESLint rules here...
+    // but first consider making a PR to the minted eslint-config-minted first
+    // if you think it's something that should apply to the whole organization
+    // https://github.com/minted/eslint-config-minted
+}
